@@ -2,14 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jujubos.github.io</id>
     <title>Gridea</title>
-    <updated>2021-10-28T13:16:57.868Z</updated>
+    <updated>2022-01-08T09:08:14.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jujubos.github.io"/>
     <link rel="self" href="https://jujubos.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://jujubos.github.io/images/avatar.png</logo>
     <icon>https://jujubos.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[php踩坑记录]]></title>
+        <id>https://jujubos.github.io/post/php-cai-keng-ji-lu/</id>
+        <link href="https://jujubos.github.io/post/php-cai-keng-ji-lu/">
+        </link>
+        <updated>2022-01-08T09:04:12.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1">1</h2>
+<p>apache装在php模块一直报错<br>
+【can not locate “php_module”in file php.dll :no error】<br>
+不知道什么原因，反正从php8.1.1版本换成php8.0.0版本就没问题了<br>
+<img src="https://jujubos.github.io/post-images/1641632734415.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[zk-snark]]></title>
         <id>https://jujubos.github.io/post/zk-snark/</id>
@@ -18,6 +31,7 @@
         <updated>2021-10-28T13:05:19.000Z</updated>
         <content type="html"><![CDATA[<p>为什么要多计算几个点的值？<br>
 <img src="https://jujubos.github.io/post-images/1635426387412.png" alt="" loading="lazy"></p>
+<p>验证 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>β</mi><mi>l</mi></msub><mo>∗</mo><mi>L</mi><mo>+</mo><msub><mi>β</mi><mi>r</mi></msub><mo>∗</mo><mi>R</mi><mo>+</mo><msub><mi>β</mi><mi>o</mi></msub><mo>∗</mo><mi>O</mi><mo>=</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">\beta_l * L + \beta_r * R + \beta_o * O = Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">L</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">Z</span></span></span></span></p>
 ]]></content>
     </entry>
     <entry>
